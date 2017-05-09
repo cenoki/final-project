@@ -22,15 +22,14 @@ article{
 h1 {
     color: #000000;
     font-family: 'PT Serif', serif;
-    font-weight: bold;
-    font-size: 1.5em;
+    font-size: 16pt;
 }
 
 h2 {
     color: #000000;
     font-family: 'PT Serif', serif;
     font-weight: bold;
-    font-size: 1.25em;
+    font-size: 14pt;
 }
 
 h3 {
@@ -280,6 +279,10 @@ img{
     color: #f5f5f5;
     line-height: 0%;
 }
+
+.sources li{
+    width: 100%
+}
 /* ===================  Header Section  ==================================== */
 /* now i would have a section that corresponds to my html sections.          */
 header {
@@ -291,6 +294,8 @@ header h1{
     color: #fff;
     font-size: 20pt;
     padding: 1.4%;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 0.2em;
 }
 
 .logo img {
